@@ -1,0 +1,276 @@
+
+<!-- saved from url=(0170)https://cs92prod.ps.syr.edu/psc/CS92PROD_10/EMPLOYEE/SA/s/WEBLIB_RPT.ISCRIPT1.FieldFormula.IScript_GetReport?PrcsInst=8433364&RenSrv=https://rncs92pd.ps.syr.edu:443/psren -->
+<html dir="ltr" lang="en" class="chrome win pc standard psc_dir-ltr psc_form-xlarge"><!-- Copyright (c) 2000-2009 PeopleSoft, Inc. All Rights Reserved. --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SQR Report - SUSR081</title>
+<link rel="STYLESHEET" type="TEXT/CSS" href="./SQR Report - SUSR081_files/PTSTYLEDEF_1.css">
+<script type="text/javascript" language="JavaScript">
+<!-- HIDE FROM NON-JS BROWSERS
+
+
+function MM_getElementsByTagID(tag, id)
+{
+ var objList = document.getElementsByTagName(tag); if (null == objList)
+ return null; for (var i = 0; i < objList.length; i++)
+ {
+ if (objList.item(i).id == id)
+ {
+ obj = objList.item(i); return obj; }
+ }
+ return null;}
+
+function MM_findObj(n, d) { 
+ var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+ d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+ if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n]; for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;}
+
+
+
+
+
+
+function afterSubscribe()
+{
+ 
+ try
+ {
+ if (kn.leaderWindow.name != kn.leaderWindow.kn.leaderWindow.name)
+ {
+ top.location = top.location; }
+ if (!kn.leaderWindow.kn.tunnelRunning_ && (top.window.g_nNumFailedPosts == 0))
+ {
+ top.location = top.location; }
+ }
+ catch (e)
+ {
+ top.location = top.location; }
+ 
+ 
+ setTimeout("afterSubscribe()", 5000 + (Math.random() * 1000)); return;}
+
+
+
+
+
+function onRensrvUp()
+{
+ try
+ {
+ 
+ if (kn.leaderWindow.name != kn.leaderWindow.kn.leaderWindow.name)
+ {
+ top.location = top.location; return; }
+ if (!kn.leaderWindow.kn.tunnelRunning_)
+ {
+ setTimeout("onRensrvUp()", 5000); }
+ }
+ catch (e)
+ {
+ top.location = top.location; }
+ return;}
+
+
+
+function kn_onTunnelStatus(ev)
+{
+ setTimeout("onRensrvUp()", 5000)
+ return;}
+
+function errorHandler(e)
+{
+ alert(e); return;}
+
+
+var g_topic;function subscribeToTopic()
+{
+ 
+ 
+ g_topic = "/psreports/" + "CS92PROD" + "/" + "8433364";  if (typeof(kn) == "undefined")
+ {
+ alert("Unable to connect to the RenServer."); top.document.location = "https://cs92prod.ps.syr.edu/psc/CS92PROD_10/EMPLOYEE/SA/c/PROCESSMONITOR.PROCESSMONITOR.?Page=PMN_PRCSLIST&Action=U"; return; }
+
+ 
+ 
+ 
+ try
+ {
+ if (kn.leaderWindow.name != kn.leaderWindow.kn.leaderWindow.name)
+ {
+ top.location = top.location; return; }
+ }
+ catch (e)
+ {
+ top.location = top.location; return; }
+
+ var sh = {}; sh.onError = errorHandler; kn.subscribe (g_topic , handleEvent, { do_max_age:"infinity" }, sh); return;}
+
+
+function Init()
+{
+ try
+ {
+ 
+ 
+ var sUrl = top.document.location.href; if ((sUrl.indexOf ("IC_RUN_DRILLDOWN") > 0) && (sUrl.indexOf ("psp") > 0))
+ top.resizeTo(725,350); else
+ top.resizeTo(500,350); }
+ catch (e)
+ {
+ 
+ 
+ }
+
+ if (typeof(kn) == "undefined")
+ {
+ alert("Unable to connect to the RenServer."); top.document.location = "https://cs92prod.ps.syr.edu/psc/CS92PROD_10/EMPLOYEE/SA/c/PROCESSMONITOR.PROCESSMONITOR.?Page=PMN_PRCSLIST&Action=U"; return; }
+ else
+ {
+ subscribeToTopic();  setTimeout ("afterSubscribe()", 5000 + (Math.random() * 1000)); top.name="CS92PROD" + "8433364"; }
+ return;}
+
+
+
+
+
+var g_psAppDataNewLocation;function finishRedirect ()
+{
+ kn.stop(); try
+ {
+ top.moveTo (0,0); top.resizeTo (900,700); }
+ catch (e)
+ {
+ 
+ 
+ }
+ top.location = g_psAppDataNewLocation; top.focus(); }
+
+
+
+function handleEvent (event)
+{
+ if (event.ps_appdata != null)
+ {
+ kn.CLEAR_TOPIC
+ ( {do_method: "delete_topic", kn_to: g_topic}, {onError: null} ); g_psAppDataNewLocation = event.ps_appdata; setTimeout ("finishRedirect()", 100); }
+ else
+ {
+ if (event.ps_status != null)
+ {
+ 
+ var ele = MM_getElementsByTagID ("div", "STATUS"); if (ele != null)
+ ele.innerHTML = event.ps_status; }
+ if (event.ps_msg != null)
+ {
+ var ele = MM_getElementsByTagID ("div", "APPMSG"); if (ele != null)
+ ele.innerHTML = event.ps_msg; }
+ }
+ return;}
+
+
+
+
+var g_nNumFailedPosts = 0;function knps_transmitErrorHandler (sSrc)
+{
+ g_nNumFailedPosts++;   if (g_nNumFailedPosts >= 2)
+ {
+ 
+ 
+ alert("Unable to connect to the RenServer."); top.document.location = "https://cs92prod.ps.syr.edu/psc/CS92PROD_10/EMPLOYEE/SA/c/PROCESSMONITOR.PROCESSMONITOR.?Page=PMN_PRCSLIST&Action=U"; return; }
+ return;} 
+
+
+</script>
+<script type="text/javascript" language="JavaScript" src="./SQR Report - SUSR081_files/saved_resource"></script><style data-emotion="css-global"></style></head>
+<frameset name="kn_WEBLIB_RPT_ISCRIPT1_FieldFormula_IScript_GetReport_26593_esp" rows="100%,*" border="0" onload="_22();" onunload="_23();" data-new-gr-c-s-check-loaded="14.1120.0" data-gr-ext-installed=""><outwrite-root></outwrite-root>
+   <frame name="kn_WEBLIB_RPT_ISCRIPT1_FieldFormula_IScript_GetReport_26593_app" src="./SQR Report - SUSR081_files/psren.html" title="No Content (162,2103)" frameborder="no">
+   <frameset cols="50%,50%">
+<frame name="kn_WEBLIB_RPT_ISCRIPT1_FieldFormula_IScript_GetReport_26593_tunnel" title="kn_WEBLIB_RPT_ISCRIPT1_FieldFormula_IScript_GetReport_26593_tunnel" src="./SQR Report - SUSR081_files/psren(1).html" scrolling="no" noresize="" frameborder="no" style="display:none; visibility:hidden">
+<frame name="kn_WEBLIB_RPT_ISCRIPT1_FieldFormula_IScript_GetReport_26593_post" title="kn_WEBLIB_RPT_ISCRIPT1_FieldFormula_IScript_GetReport_26593_post" src="./SQR Report - SUSR081_files/psren(2).html" scrolling="no" noresize="" frameborder="no" style="display:none; visibility:hidden">
+   </frameset>
+</frameset>
+<noframes>
+   <h1>KnowNow Library Error</h1>
+   <p>KnowNow requires Frames, Javascript, and local Cookies</p>
+</noframes>
+<noframes><xmp><!--�
+</HEAD>
+
+
+<BODY onload="Init();">
+<B>
+<div id ="STATUS" name="STATUS" class='PSEDITBOXLABEL'>Queued
+</div>
+</B>
+
+<B>
+<div id ="APPMSG" name="APPMSG" class='PSEDITBOXLABEL'>
+</div>
+</B>
+<table border='0' cellpadding='0' cellspacing='0' cols='8' width='450'>
+<tr>
+<td width='1' height='28'></td>
+<td width='1'></td>
+<td width='3'></td>
+<td width='108'></td>
+<td width='100'></td>
+<td width='110'></td>
+<td width='120'></td>
+<td width='19'></td>
+</tr>
+<tr>
+<td height='1' colspan='3'></td>
+<td rowspan='2' valign='top' align='left'>
+<label for='CDM_LIST_VW_PRCSNAME' class='PSEDITBOXLABEL' >Process Name:</label>
+</td>
+<td></td>
+</tr>
+<tr>
+<td height='23' colspan='3'></td>
+<td  valign='top' align='left'>
+<span class='PSEDITBOX'>SUSR081</span>
+</td>
+<td colspan='2' rowspan='2' valign='top' align='left'>
+<span class='PSEDITBOX' >SUSR081</span>
+</td>
+</tr>
+<tr>
+<td height='1' colspan='3'></td>
+<td rowspan='2' valign='top' align='left'>
+<label for='CDM_LIST_VW_PRCSINSTANCE' class='PSEDITBOXLABEL' >Process Instance:</label>
+</td>
+<td rowspan='2' valign='top' align='left'>
+<span class='PSEDITBOX' >8433364</span>
+</td>
+</tr>
+<tr>
+<td height='27' colspan='3'></td>
+<td rowspan='2' valign='top' align='left'>
+<label for='CDM_LIST_VW_PRCSTYPE' class='PSEDITBOXLABEL' >Process Type:</label>
+</td>
+<td colspan='2' rowspan='2' valign='top' align='left'>
+<span class='PSEDITBOX' >SQR Report</span>
+</td>
+</tr>
+</table>
+
+</BODY>
+</HTML></noframes><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+  div.grammarly-desktop-integration {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+  }
+
+  div.grammarly-desktop-integration:before {
+    content: attr(data-content);
+  }
+</style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

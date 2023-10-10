@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Cosmetics Analytics</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main2.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript2.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Cosmetics Analytics Dashboard</h1>
+						<h2>Behind the Glamour: What Lies Beneath the Surface of Cosmetic Labels?</h2>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<!--<span class="image main"><img src="images/pic04.jpg" alt="" /></span>-->
+								<h2></h2>
+								<p>The California Safe Cosmetics Act of 2005, or Senate Bill 484, 
+								is a unique state law in California. It requires cosmetics manufacturers 
+								to label ingredients linked to cancer or birth defects. California is the 
+								only state enforcing such transparency. The California Safe Cosmetics Program (CSCP) gathers
+								data on harmful ingredients in cosmetics, aiming to inform the public.</br></br>
+								
+								This project analyzes CSCP data, revealing the presence of these chemicals, 
+								their distribution in products, and how companies respond to regulations.</p>
+								<h2>
+						<strong>86.84% of Cosmetics Contain This Ingredient. Should You Be Concerned?</strong></h2>
+		
+								
+						<p>TiO2, classified as a potential carcinogen by the International Agency for Research on 
+						Cancer, is present in 86.84% of cosmetics, as per data from the California Safe Cosmetics 
+						Program. Notably, Titanium dioxide nanoparticles do not appear to pose unique health risks 
+						and do not penetrate healthy skin. Research on sunburnt pig ears, designed to simulate 
+						damaged skin, showed that Titanium dioxide did not reach deeper skin layers.</p>
+						<span class="image fit"><img src="images/image1.png" alt="" /></span>
+							
+						
+							
+						<span class="image right"><img src="images/image2.png" alt="" /></span>
+	<h2><strong>Lip Color, Eye Shadow, or Nail Polish: Where Is Titanium Dioxide Hiding?</strong></h2>	
+    
+    <p>The visualization reveals that Titanium dioxide (TiO2) is commonly found 
+							in Lip Color products, such as <strong>Lipsticks, Liners, and Pencils</strong>, with an average 
+							concentration of 15.22%. Additionally, TiO2 is present in <strong>Eye Shadow, 
+							Foundations & Bases, Nail Polish, and Lip Gloss</strong>. These insights 
+							highlight the widespread use of TiO2 in cosmetics, particularly in Lip 
+							Color formulations.</p>
+      
+							
+								</br></br></br></br></br></br></br></br></br>
+								
+	<h2><strong>LOreal USA's Dominance</strong></h2>
+	<p>
+
+LOreal USA topped the list in 
+terms of Titanium dioxide usage, with approximately<strong> 6.1% </strong>
+of their products containing TiO2. This significant presence of 
+TiO2 in their cosmetics suggests that LOreal USA plays a substantial
+ role in the utilization of this ingredient within the cosmetics industry.</br>
+ The other companies engaged in TiO2 production were<strong> Revlon,
+S+,
+Coty &
+Bare beauty essentials Inc.</strong></br>
+Delving deeper into the responses of these five companies regarding the reported presence of Titanium dioxide.
+
+</p>
+ 
+							<h2><strong>
+							Reformulation or Discontinuation: How Do Brands Respond to Regulations?</strong></h2>
+							<p>In the analysis of how cosmetics brands respond to Titanium dioxide (TiO2) regulations, we found notable trends 
+							among the companies examined. Generally, most companies took little to no 
+							action regarding products containing TiO2. Only a handful of products underwent 
+							either reformulation, discontinuation, or a combination of both.
+
+<strong>LOreal USA's Static Approach:</strong></br>
+
+LOreal USA chose to maintain the status quo, 
+without making any changes to their TiO2-containing products, distinguishing them from their peers.</br>
+
+<strong>Revlon, Coty, and Bare Essentials: Focused on Discontinuation:</strong></br>
+
+Revlon, Coty, and Bare Essentials, on the other hand, leaned more towards discontinuation
+ as their strategy to comply with regulations, demonstrating a 
+ comparative commitment to removing TiO2-containing products from their lines.</br>
+
+<strong>S+'s Balanced Response:</strong></br>
+
+S+ stood out with a more balanced approach, involving both discontinuation
+ and reformulation. Their commitment to a dual strategy indicates a 
+ comprehensive response to regulatory requirements.</br>
+
+<strong>Revlon's Unique Reformulation:</strong></br>
+
+A unique instance was observed with Revlon, which not only 
+reformulated but also discontinued a TiO2-containing product. 
+However, this was an isolated case, unlike the general trend among other companies.</br></br>
+
+These findings underscore the diverse strategies employed by 
+cosmetics brands when responding to TiO2 regulations, 
+highlighting the complexity of decision-making in the industry.</br></br>
+<strong>Case : No Action Taken</strong></br>
+The figure below illustrates the quantity of products that include TiO2, and no alterations were implemented in this regard.</br>
+<span class="image fit"><img src="images/image3.jpg" alt="" /></span>
+<strong>Case : Product Discontinued</strong></br>
+The diagram below displays the number of products containing TiO2 that were removed from the market by the companies.</br>
+	<span class="image fit"><img src="images/image4.jpg" alt="" /></span>						
+		<strong>Case : Product Reformulated</strong></br>					
+							
+	The chart below illustrates the quantity of products 
+	that underwent reformulation, specifically those containing TiO2.</br>
+	<span class="image fit"><img src="images/image4.jpg" alt="" /></span>
+	</p>
+							
+							
+							
+<h2><strong>Summary</strong></h2>
+
+<p>The cosmetics analysis project provides critical insights into the presence
+ and management of Titanium dioxide (TiO2) in the cosmetics industry under the
+ California Safe Cosmetics Act. I found that 86.84% of products contain TiO2, which,
+ despite its potential carcinogenic classification, appears to pose minimal health 
+ risks through skin exposure.</br></br>
+
+Companies responded to TiO2 regulations with varying strategies. 
+LOreal USA maintained the status quo, 
+while Revlon, Coty, and Bare Essentials predominantly 
+chose discontinuation. S+ balanced both discontinuation and reformulation.
+ Revlon, uniquely, applied reformulation and discontinuation to one product.</br></br>
+
+This project highlights the complexity of cosmetics regulation 
+and its impact on product formulation. It emphasizes the need for 
+transparency and consumer awareness. These findings inform consumer 
+choices and contribute to a safer cosmetics industry.
+</p>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Tableau Dashboard</h2> 
+							<ul class="actions">
+								<li><a href="#" class="button">Click Here</a></li>
+							</ul>
+						</section>
+		
+						
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
